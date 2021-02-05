@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+    
+
+}
+#main ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: chocolate;
+    position: relative;
+    padding-left: 200px;
+    padding: 14px 16px;
+    
+}
+#main ul li {
+    list-style: none;
+    
+    padding: 14px 18px;
+    
+}
+#main ul li:hover{
+    color:cyan;
+    display: block;
+    background-color: black;
+
+}
+  #img{
+      width: 100%;
+      height: 100vh;
+      background-image: url("./1087338.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  #img1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./fe5b6a1176da461e0965823a4e64a2dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   #class{
+       width: 600px;
+       height: 500px;
+       background-color: crimson;
+   }
+   #stud1{
+       width: 100px;
+       height: 100px;
+       background-color: cyan;
+       position: absolute;
+       /* right: 0; */
+   }
+   #stud2{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: absolute;
+    z-index: 1;
+    /* bottom: 0; */
+}
+#stud3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* bottom: 0;
+    right: 0; */
+    position: absolute; 
+    z-index: 2;
+
+}
+#stud4{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+#inp{
+    margin-left: 180px;
+    margin-top: 20px;
+    
+}
+input{
+    width: 500px;
+    padding: 10px;
+    position: relative;
+
+}
+span{
+    position: absolute;
+    z-index: 1;
+    margin-left: 469px;
+    margin-top: 10px;
+}

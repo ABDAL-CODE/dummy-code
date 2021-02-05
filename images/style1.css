@@ -1,0 +1,23 @@
+/* * { */
+    /* color: green; */
+/* } */
+
+h1 em, strong{
+    color: rgb(0, 0, 0);
+}
+
+/* ul>li {
+    color: chartreuse;
+    font-size:50px ;
+}
+ul >li>ol {
+    color: rgb(62, 8, 161);
+    list-style: none;
+} */
+div> ul li {
+    color: darkblue;
+    font-size: 50px;
+    display: inline;
+    background-color: rgb(27, 143, 99);
+    
+}
